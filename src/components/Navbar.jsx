@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SearchIcon from '@mui/icons-material/Search';
-// import Badge from '@mui/material/Badge';
-// import MailIcon from '@mui/icons-material/Mail';
-// import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Badge from '@mui/material/Badge';
+import MailIcon from '@mui/icons-material/Mail';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container  = styled.div`
     height:  60px;   
@@ -55,11 +55,11 @@ const Right = styled.div`
     align-items: center;
     justify-content: flex-end;
 `
-// const MenuItem = styled.div`
-//     font-size : 14 px;
-//     cursor: pointer;
-//     margin-left: 25px;
-// `
+const MenuItem = styled.div`
+    font-size : 14 px;
+    cursor: pointer;
+    margin-left: 25px;
+`
 
 const Navbar = () => {
   return (
@@ -78,13 +78,13 @@ const Navbar = () => {
        <Logo>SIRAT DIGITAL PRINTS</Logo>
       </Center>
       <Right>
-           {/* <MenuItem>REGISTER</MenuItem>
+           <MenuItem>REGISTER</MenuItem>
            <MenuItem>SIGN IN</MenuItem>
            <MenuItem>
-           <Badge badgeContent={1} color="primary">
+           <Badge badgeContent={0} color="primary">
                <ShoppingCartOutlinedIcon />
            </Badge>
-           </MenuItem> */}
+           </MenuItem>
       </Right>
     </Wrapper>
  </Container>
