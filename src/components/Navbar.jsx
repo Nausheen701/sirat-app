@@ -75,7 +75,7 @@ const Navbar = () => {
 
       </Left>
       <Center>
-       <Logo>TEST DIGITAL PRINTS</Logo>
+       <Logo>SIRAT DIGITAL PRINTS</Logo>
       </Center>
       <Right>
            <MenuItem>REGISTER</MenuItem>
