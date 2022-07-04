@@ -69,13 +69,12 @@ const Navbar = () => {
            <Language>EN</Language>
            <SearchContainer>
                <Input/>
-               
                <SearchIcon style={{color:"gray", fontSize:16}} />
            </SearchContainer>
 
       </Left>
       <Center>
-       <Logo>SIRAT DIGITAL PRINTS</Logo>
+       <Logo>TEST 2 DIGITAL PRINTS</Logo>
       </Center>
       <Right>
            <MenuItem>REGISTER</MenuItem>
