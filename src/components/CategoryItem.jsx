@@ -6,7 +6,11 @@ const Container = styled.div``
 const CategoryItem = ({item}) => {
     return (
         <Container>
-            hello
+            <Image />
+            <Info> 
+                <Title>{item.title}</Title>
+                <Button>SHOP NOW</Button>
+            </Info>
         </Container>
     )
 }
