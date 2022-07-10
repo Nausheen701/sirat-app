@@ -1,10 +1,22 @@
 import styled from "styled-components"
 
-const Container = styled.div``
-const Image = styled.img``
-const Info = styled.div``
-const Title = styled.h1``
-const Button = styled.button``
+const Container = styled.div`
+    flex: 1;
+    margin: 3px;
+    height: 70vh;
+    position: relative;
+`;
+
+const Image = styled.img`
+    width: 100%;
+    height: 100%;
+    object-width: cover;
+    `;
+const Info = styled.div`
+    position: absolute;
+    `;
+const Title = styled.h1``;
+const Button = styled.button``;
 
 
 const CategoryItem = ({item}) => {
