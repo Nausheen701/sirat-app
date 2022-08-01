@@ -3,6 +3,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material'
 import styled from 'styled-components'
 import { useState } from "react"
 import {sliderItems} from "../data"
+// import data from '../data'
 
 const Container = styled.div `
     width: 100%;
@@ -35,6 +36,7 @@ const Wrapper = styled.div`
     height: 100%;
     display: flex;
     transition: all 1.5s ease;
+        // animation
     transform: translateX(${props=>props.slideIndex  *  -100}vw);
         // moves slides across the x-axis
 `

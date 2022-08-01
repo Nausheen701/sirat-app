@@ -1,3 +1,5 @@
+
+// const sliderItems = [
 export const sliderItems = [
     {
         id: 1,
@@ -23,7 +25,7 @@ export const sliderItems = [
         bg: "lavender"
     } 
 ]
-
+//  const categories = [
 export const categories = [
     {
         id: 1,
@@ -41,3 +43,5 @@ export const categories = [
         title: "Fusion",
     }
 ]
+
+// export default data 
