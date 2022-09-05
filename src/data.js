@@ -30,17 +30,17 @@ export const categories = [
     {
         id: 1,
         img: "https://www.growinglearners.net/post/secret-garden",
-        title: "Eid",
+        title: "Eid"
     },
     {
         id: 2,
         img: "https://www.growinglearners.net/post/moroccan-nights",
-        title: "Folksy",
+        title: "Folksy"
     },
     {
         id: 3,
         img: "https://www.growinglearners.net/post/african-blossoms",
-        title: "Fusion",
+        title: "Fusion"
     }
 ]
 
