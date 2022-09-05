@@ -29,17 +29,17 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: "some image",
+        img: "https://www.growinglearners.net/post/secret-garden",
         title: "Eid",
     },
     {
         id: 2,
-        img: "another image",
+        img: "https://www.growinglearners.net/post/moroccan-nights",
         title: "Folksy",
     },
     {
         id: 3,
-        img: "last image",
+        img: "https://www.growinglearners.net/post/african-blossoms",
         title: "Fusion",
     }
 ]
